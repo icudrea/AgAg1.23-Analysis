@@ -1,0 +1,11 @@
+HOW TO 
+
+1.plot_spectrum_comparison_AgAgLowEnergySF_withCarina.C
+
+2.you also need the data_agag123.C macro, and the data in the "data_agag1.23" folder
+
+3.the macro "data_agag123.C has a function called "dada_agag123_carina"
+ which loads in your data points ( from the data_agag1.23/AccCorr_excess_Rebin.root" file 
+ and creates a TGraph of the data points to be drawn 
+  you can update the file there to take your new excess with the reference
+  instead of cocktail pi0 subtracted
